@@ -17,7 +17,7 @@ jobs:
         run: npm test
 
   deploy:
-    needs: [function-test]
+    needs: [function_test]
     runs-on: ubuntu-latest
     defaults:
       run:
