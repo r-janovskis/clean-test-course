@@ -8,7 +8,7 @@ jobs:
   security_test:
     runs-on: ubuntu-latest
     defaults:
-      runs:
+      run:
         working-directory: backend
     name: Execute the PyCharm security test
     steps:
